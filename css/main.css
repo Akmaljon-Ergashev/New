@@ -1,0 +1,157 @@
+/* Core Styles */
+body {
+    font-family: sans-serif;
+    background-image: url("../images/winter.jpg");
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto ;
+    text-align: center;
+    background-color: rgb(194, 186, 196);
+    border-radius: 15px;
+}
+
+.to-uppercase {
+    text-transform: uppercase;
+}
+
+.main-header_brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header {
+    background-image: url("../images/back.jpg");
+    background-size: 1140px;
+    border-radius: 150px;
+}
+
+.main-header_brand img {
+    width: 100px;
+    border-radius: 25%;
+    margin-top: 3px;
+}
+
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-navigation__item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-navigation__item a {
+    color: #05364d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.main-navigation__item a:hover {
+    color: #ffff;
+}
+
+.main-navigation__item.active a {
+    color: #ffff ;
+}
+
+.main-section__images {
+    display: inline-block;
+}
+
+.margin-section__images h1 {
+    color: #ffff;
+}
+
+.main-section__images img {
+    margin-top: 30px;
+    width: 35%;
+    border-radius: 10px;
+    border-color: 2px snow;
+    padding: 5px;
+}
+
+.main-images {
+    display: inline-block;
+}
+
+.main-images img {
+    margin-top: 30px;
+    width: 35%;
+    height: 250px;
+    border-radius: 10px;
+    border-color: 2px snow;
+    padding: 5px;
+}
+
+.tit {
+    color: #ffff;
+    margin-top: 350px;
+}
+
+
+p {
+    width: 70% ;
+    line-height: 25px;
+    font-weight: 700;
+    margin: 10px auto;
+}
+
+h1 {
+    color: #ffff;
+}
+
+hr {
+    width: 1140px;
+}
+
+.creator-img {
+    padding: 20px 0px;
+}
+
+.creator-img > div {
+    text-align: center;
+    width: 40%;
+    float: left;
+}
+
+.creator-img img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.img-set {
+    margin: 0 auto;
+}
+
+
+.info-market {
+    padding: 20px 0px;
+}
+
+.info-market > div {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.info-market img {
+    width: 60%;
+    border-radius: 15px;
+}
+
+.p-color:hover{
+color: #ffff;
+}
+
+.tit-color {
+    color: purple;
+}
+
+.tit-color:hover {
+    color: #ffff;
+}
